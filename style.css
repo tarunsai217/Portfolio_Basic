@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background-image:url(https://media4.giphy.com/media/TxVVB6PfWMjE4/giphy.gif?cid=790b7611efa4db006be40cfabe219f2b809d206659a37ba7&rid=giphy.gif&ct=g);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'IBM Plex Sans', sans-serif;
+  letter-spacing: 1.5px;
+  color: #C9CCD5;
+
+}
+
+.card{
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 55%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  max-width: 500px;
+}
+.background{
+  height: 35%;
+  width: 100%;
+    background-image: url(https://media1.giphy.com/media/z2POQZ2t8s5Gzp4C7r/giphy.gif?cid=790b76116ef230f1bd52316e475fd102fccc164a4d82c042&rid=giphy.gif&ct=g);
+    background-size: contain;
+    background-position: center;
+    background-size: 100%, 20%;
+    background-repeat: no-repeat;
+}
+.headname{
+  height: 35%;
+  width: 100%;
+  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #b8c6db;
+
+  border-bottom: 2px solid #1E3163;
+  position: relative;
+}
+.headname::before{
+  content: "";
+  height: 90%;
+  width: 120px;
+  transform-origin: center;
+  position: absolute;
+  top:-50%;
+  left:50%;
+  transform: translateX(-50%) ;
+  background-image: url(niceimg.PNG);
+  background-size: cover;
+  border-radius: 50%;
+  border:4px solid white;
+}
+.info{
+  font-size: 14px;
+  text-align: center;
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%) ;
+  top:50%;
+  width: 100%;
+}
+.info h2{
+  font-weight: bolder;
+padding-bottom: 5px;
+}
+.intro{
+  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+padding: 25px;
+display: grid;
+grid-template-rows: 50% 50%;
+grid-template-columns:33% 33% 33% ;
+}
+
+.butter{
+  text-align: center;
+  padding: 5px;
+  background-image: url(https://media3.giphy.com/media/aRJMSoJmD037wpHSOF/giphy.gif?cid=ecf05e47j8e55n9u8ct6swl6zuf6d8osv05tb47q1cxrd6qu&rid=giphy.gif&ct=g);
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  background-color: #EFEFEF;
+  border-radius: 5%;
+  margin:5px;
+  color: #D4ECDD;
+  font-weight: bolder;
+}
